@@ -1,0 +1,23 @@
+09-04-2012
+Updated getMassey script to use 2012 numbers, added 4 new FCS teams
+Files changed:
+	/cms/new/getMassey.php
+Packaging as v.1.3.0
+
+05-21-2012
+Changed CSS-based ratings layout to table-based
+Files changed:
+	/tools/style.css
+	/tools/functions/function_conferenceRatings.php
+	/tools/functions/function_getRatings.php
+	/tools/functions/function_top40.php
+	/tools/functions/function_tracker.php
+Packaging as v.1.2.0
+
+10-10-2011
+Reworked getMassey script to better work with his new file format
+Corrected flaw in win score calculations
+Corrected flaw in Little Rock games
+Files changed:
+	/cms/new/getMassey.php
+Swapping on server as v.1.1.0

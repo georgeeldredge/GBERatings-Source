@@ -1,0 +1,343 @@
+/*************************************************************/
+/* ALL LINKS ON THIS PAGE WILL HAVE NO DECORATION BY DEFAULT */
+/* LINK COLOR TO BE DEFINED PER SECTION                      */
+/*************************************************************/
+
+a:link, a:visited, a:hover, a:active {
+	text-decoration			: none;
+}
+
+/*************************************************/
+/* IMG TO HAVE NO BORDER BY DEFAULT              */
+/* BORDERS CAN BE ADDED WHEN NEEDED IN CHILD DIV */
+/*************************************************/
+
+img {
+	border					: 0px;
+	padding					: 0px;
+	margin					: 0px;
+}
+
+/*******************************************/
+/* BASE FONT STYLE DEFINED IN THE HTML TAG */
+/*******************************************/
+
+html {
+	font-family				: Verdana, Arial, Helvetica, sans-serif;
+	font-size				: 12px;
+}
+
+body {
+	position				: relative;
+}
+
+/******************************/
+/* USED TO CLEAR AFTER FLOATS */
+/******************************/
+
+.clear {
+	clear					: both;
+	line-height				: 0em;
+}
+
+/***********************/
+/* PAGE EDIT CONTAINER */
+/***********************/
+
+#pageEdit {
+	background-color		: #FFFFFF;
+	border					: 2px solid #000000;
+	border-right			: none;
+	border-top				: none;
+	color					: #000000;
+	font-size				: .8em;
+	padding					: .5em .5em .5em .5em;
+	position				: fixed;
+	right					: 0em;
+	top						: 0em;
+}
+
+#pageEdit a {
+	color					: #000000;
+}
+
+/*******************/
+/* GENERIC STYLING */
+/*******************/
+
+.bold {
+	font-weight				: bold;
+}
+
+.hidden {
+	display					: none;
+}
+
+h1, h2, h3, h4, h5 {
+	font-size				: 1em;
+	font-weight				: normal;
+	margin					: 0px 0px 0px 0px;
+	padding					: 0px 0px 0px 0px;
+	text-align				: left;
+}
+
+h1 {
+	font-size				: 2.33em;
+}
+
+h2 {
+	font-size				: 1.8em;
+}
+
+h2 {
+	font-size				: 1.65em;
+}
+
+h3 {
+	font-size				: 1.45em;
+}
+
+h4 {
+	font-size				: 1.11em;
+}
+
+h5 {
+	font-size				: 1.05em;
+}
+
+a {
+	color					: #CC3333;
+}
+
+/******************/
+/* LAYOUT STYLING */
+/******************/
+
+#container {
+	background-color		: #FFFFCC;
+	border					: 1px solid #CC3333;
+	margin					: auto;
+	width					: 1200px;	
+}
+
+#header {
+	color					: #CC3333;
+	width					: 100%;
+}
+
+#main {
+	width					: 100%;
+}
+
+#footer {
+	color					: #CC3333;
+	width					: 100%;
+}
+
+/******************/
+/* HEADER STYLING */
+/******************/
+
+#header h1 {
+	font-family				: 'Myriad Web Pro', Verdana, Arial, Helvetica, sans-serif;
+	font-size				: 2em;
+	font-weight				: bold;
+	height					: 60px;
+	line-height				: 60px;
+	text-align				: center;
+	text-transform			: uppercase;
+	width					: 100%;
+}
+
+/****************/
+/* MAIN STYLING */
+/****************/
+
+#content {
+	background-color		: #FFFFFF;
+	float					: right;
+	min-height				: 400px;
+	padding					: 6px 6px 6px 6px;
+	width					: 1013px;
+}
+
+#content h1 {
+	font-size				: 1.33em;
+	font-weight				: bold;
+	margin					: .75em 0px .75em 0px;
+	padding					: 0px 0px 0px 0px;
+	text-align				: center;
+}
+
+#content h2 {
+	font-size				: 1.2em;
+	font-weight				: bold;
+	margin					: .75em 0px .75em 0px;
+	text-align				: center;
+}
+
+#ratings, #ratings .details, #pastMenu, #pastMenu .head, #pastMenu .season, #tracker, #tracker .teamRanks, #links, #links .description {
+	list-style				: none;
+	margin					: 0px 0px 0px 0px;
+	padding					: 0px 0px 0px 0px;
+}
+
+#ratings.conf {
+	margin					: auto;
+	width					: 450px;
+}
+
+.ratingsBlock {
+	margin					: auto;
+	width					: 450px;
+}
+
+#ratingsBlockLeft {
+	float					: left;
+}
+
+#ratingsBlockRight {
+	float					: right;
+}
+
+.ratingsBlock .rank {
+	text-align				: center;
+	width					: 50px;
+}
+
+.ratingsBlock .team {
+	text-align				: left;
+	width					: 315px;
+}
+
+.ratingsBlock .rating {
+	text-align				: right;
+	width					: 85px;
+}
+
+#links {
+	margin					: auto;
+	width					: 98%;
+}
+
+#links .link {
+	margin-top				: 1em;
+}
+
+#links li.description {
+	text-indent				: 1.5em;
+}
+
+#pastMenu {
+	font-size				: 1.2em;
+	margin					: auto;
+	width					: 400px;
+}
+
+#pastMenu .head, #pastMenu .season {
+	margin					: .3em 0em;
+}
+
+#pastMenu .head {
+	font-weight				: bold;
+}
+
+#pastMenu .year, #pastMenu .rating, #pastMenu .sos, #pastMenu .champ {
+	float					: left;
+	text-align				: center;
+	width					: 100px;
+}
+
+#pastMenu .champ {
+	float					: right;
+}
+
+#tracker {
+	border					: 1px solid #999999;
+	border-bottom			: none;
+	border-right			: none;
+	border-collapse			: collapse;
+	margin					: auto;
+}
+
+#tracker td, #tracker th {
+	border					: 1px solid #999999;
+	border-left				: none;
+	border-top				: none;
+	padding					: .2em 0px .2em 0px;
+}
+
+#tracker th, #tracker td.team, #tracker td.rank {
+	float					: left;
+	text-align				: center;
+}
+
+#tracker th, #tracker td.rank {
+	width					: 58px;
+}
+
+#tracker td.team {
+	width					: 150px;
+}
+
+#tracker th, #tracker td.team {
+	font-weight				: bold;
+}
+
+#tracker td.teamLow, #tracker td.teamHigh {
+	background-color		: #009900;
+/*	color					: #009900;*/
+	color					: #FFFFFF;
+	font-weight				: bold;
+}
+
+#tracker td.teamLow {
+	background-color		: #990000;
+/*	color					: #FF0000;*/
+}
+
+#nav {
+	float					: left;
+	list-style				: none;
+	margin					: 4em 0px 0px 0px;
+	padding					: 0px 0px 0px 0px;
+	width					: 175px;
+}
+
+#nav a {
+	border					: 1px solid #999999;
+	color					: #000000;
+	display					: block;
+	font-family				: Meiryo,Verdana,Arial,Helvetica,sans-serif;
+	font-size				: 12px;
+	font-weight				: bold;
+	margin					: 5px auto;
+	padding					: 4px 2px;
+	text-align				: center;
+	width					: 90%;
+}
+
+#nav a.active {
+	background-color		: #FFFFFF;
+	border					: 1px solid #CC3333;
+	color					: #CC3333;
+}
+
+/******************/
+/* FOOTER STYLING */
+/******************/
+
+#contact, #copyright {
+	font-size				: .8em;
+	height					: 1em;
+	margin					: .25em .25em .25em .25em;
+	line-height				: 1em;
+}
+
+#contact {
+	float					: left;
+}
+
+#copyright {
+	float					: right;
+}
