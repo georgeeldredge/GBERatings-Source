@@ -5,6 +5,11 @@ if ((strstr($_SERVER['SERVER_NAME'],"dev.gberatings.com")) && ($_SERVER['REMOTE_
 	exit();	
 }
 
+if (!strstr($_SERVER['SERVER_NAME'],"www.gberatings.com")) {
+	header("Location: http://www.gberatings.com" . $_SERVER['REQUEST_URI']);
+	exit();	
+}
+
 //$siteDown = true;
 if ($siteDown) {
 	echo "Site temporarily down for maintenance: please check back later";
